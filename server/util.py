@@ -71,4 +71,4 @@ def get_cropped_img_if_2_eyes(img_path, img_base64_data):
 
 if __name__ == "__main__":
     load_saved_artifacts()
-    print(classify_image(get_base64_image(),None))
+    print(classify_image(None,"./test_images/virat3.jpg"))
